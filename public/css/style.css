@@ -1,0 +1,131 @@
+body {
+    background-color: black !important;
+}
+
+.greenButton {
+    background-color: #00aa00 !important;
+    font-weight: bold !important;
+}
+
+.brownButton {
+    background-color: #643200 !important;
+    font-weight: bold !important;
+}
+
+.mr8 {
+    margin-right: 8px;
+}
+
+.mt32 {
+    margin-top: 32px;
+}
+
+.mb16 {
+    margin-bottom: 16px;
+}
+
+.blueButton {
+    background-color: #123654 !important;
+    color: #e0e0e0 !important;
+    font-weight: bold !important;
+}
+
+.centeredButton {
+    margin-right: 30%;
+    margin-left: 30%;
+    width: 40% !important;
+}
+
+.navbar {
+    background-color: darkgreen;
+}
+
+.whitetext {
+    color: white !important;
+}
+
+.loglabel {
+    margin-bottom: 6px;
+}
+
+.warningMessage {
+    color: yellow;
+    font-weight: bold;
+}
+
+.errorMessage {
+    color: red;
+    font-weight: bold;
+}
+
+.okMessage {
+    color: #64ff64;
+    font-weight: bold;
+}
+
+#loginContainer {
+    background-color: darkgreen;
+    vertical-align: center;
+    max-width: 750px;
+    --bs-gutter-x: 0px !important;
+}
+
+.nav-link {
+    color: white !important;
+    font-weight: bold !important;
+}
+
+.nav-link.active {
+    color: darkgreen !important;
+}
+
+.div_form {
+    margin-top: 24px;
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90% !important;
+}
+
+.col-min-width-128 {
+    min-width: 128px;
+}
+
+.footerText {
+    color: #aaaaaa !important;
+    font-size: 12px;
+
+}
+
+.height100 {
+    height: 100%;
+}
+
+.paddinglessHorizontally {
+    --bs-gutter-x: 0 !important;
+}
+
+ul.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+
+.verticalNavbar {
+    align-content: baseline
+}
+
+.textField {
+    padding: 12px !important;
+}
+
+.mt32 {
+    margin-top: 32px;
+}
+
+@media screen and (max-width: 300px) {
+    .centeredButton {
+        margin-left: 0;
+        margin-right: 0;
+        width: 100% !important;
+    }
+}
