@@ -1,0 +1,29 @@
+<div class="body-content page">
+  <div class="container">
+    <h1>Welcome, {{username}}!</h1>
+    <div class="user-options">
+      <div>
+        <div class="password-form">
+          <div class="password-form">
+            <mat-form-field>
+              <mat-label>Old Password</mat-label>
+              <input matInput [(ngModel)]="oldPassword" type="password" placeholder="Old Password" name="oldPassword">
+            </mat-form-field>
+            <mat-form-field>
+              <mat-label>New Password</mat-label>
+              <input matInput [(ngModel)]="newPassword" type="password" placeholder="New Password" name="newPassword">
+            </mat-form-field>
+          </div>
+          <button mat-button (click)="onChangePassword()" class="btn-success user-page-button">Change Password</button>
+        </div>
+        <div class="password-form mt100">
+          <mat-form-field id="deleteAccountPassword" visibility="colabsed">
+            <mat-label>Password</mat-label>
+            <input matInput [(ngModel)]="password" type="password" placeholder="Provide password" name="password">
+          </mat-form-field>
+          <button mat-button (click)="onDeleteAccount()" class="btn-danger mt10 user-page-button">Delete Account</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

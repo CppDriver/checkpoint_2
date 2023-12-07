@@ -1,0 +1,13 @@
+<div class="body-content">
+    <div class="page mt100">
+        <h1>
+            Recently added images
+        </h1>
+        <div class="image-grid">
+            <div *ngFor="let image of images" class="image-card" routerLink="media/{{encode(image.download_url)}}">
+                <img class="image" [src]="image.download_url" alt="{{ image.author }}">
+                <p class="image-caption">{{ image.author }}</p>
+            </div>
+        </div>
+    </div>
+</div>

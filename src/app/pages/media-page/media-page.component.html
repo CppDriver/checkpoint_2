@@ -1,0 +1,24 @@
+<div class="body-content">
+    <div class="image-main-wrapper">
+        <img class="image-main" [src]="imageUrl">
+        </div>
+        <div class="page" fxLayout.gt-sm="row">
+            <div class="image-detail" fxFlex.gt-sm="60%">
+                <h2>Image Title</h2>
+                <p class="font-bold font15">
+                    <mat-icon>person</mat-icon>
+                    John Uploader
+                </p>
+                <p class="font-bold font15">
+                <mat-icon>cloud_upload</mat-icon>
+                17.07.2023
+            </p>
+            <p class="font-bold font15">Image Description:</p>
+            <p class="font15">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
+        <div fxFlex.gt-sm="10%"></div>
+        <div class="gallery-list" fxFlex.gt-sm="30%">
+            <app-gallery-list></app-gallery-list>
+        </div>
+    </div>
+</div>

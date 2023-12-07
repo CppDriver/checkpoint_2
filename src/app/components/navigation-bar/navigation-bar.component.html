@@ -1,0 +1,12 @@
+<mat-toolbar color="primary">
+    <mat-toolbar-row fxLayout="row">
+        <mat-icon>camera_roll</mat-icon>
+        <span class="app-title">MultiMedia Library</span>
+        <button mat-button routerLink="/">Home</button>
+        <span class="spacer"></span>
+        <button *ngIf="!loggedIn" mat-button routerLink="/auth/login">Login</button>
+        <button *ngIf="!loggedIn" mat-button routerLink="/auth/signup">Sign up</button>
+        <button *ngIf="loggedIn" mat-button routerLink="/user">{{username}}</button>
+        <button *ngIf="loggedIn" mat-button (click)="onLogout()">Logout</button>
+    </mat-toolbar-row>
+</mat-toolbar>

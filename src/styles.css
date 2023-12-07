@@ -1,0 +1,128 @@
+/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:wght@100..900&display=swap');
+
+:root {
+    --accent: #69f0ae;
+}
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.login-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: calc(100vh - 70px);
+}
+
+.login-card {
+    padding: 10px;
+    border: 2px;
+    border-radius: 1%;
+    border-color: var(--accent);
+    width: calc(30vw + 200px);
+}
+
+.input-field {
+    margin-top: 5px;
+}
+
+.input-field-label {
+    margin-bottom: 30px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+mat-card-header {
+    border-bottom-width: 3px;
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+    border-color: var(--accent);
+    border-bottom-style: solid;
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-weight: bold;
+    color: var(--accent);
+}
+
+mat-card-title {
+    margin-bottom: 5px;
+}
+
+.align-center {
+    text-align: center;
+}
+
+.width-half {
+    width: 50%;
+}
+
+.width-third {
+    width: 33.3%;
+}
+
+.button {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.font-bold {
+    font-weight: bold;
+}
+
+.font15 {
+    font-size: 15px;
+}
+
+.font20 {
+    font-size: 20px;
+}
+
+.page {
+    margin: 5%;
+    /* margin-top: 100px; */
+}
+
+.mt10 {
+    margin-top: 10px;
+}
+
+.mt100 {
+    margin-top: 100px;
+}
+
+.body-content {
+    margin-top: 64px;
+}
+
+.mat-hint-error {
+    color: #f44336 !important;
+    font-family: 'Roboto Flex', sans-serif !important;
+}
+
+.mat-hint-success {
+    color: #4caf50;
+}
+
+.btn-danger {
+    background-color: #b4271c;
+    color: white;
+}
+
+.btn-success {
+    background-color: #28802b;
+    color: white;
+}
+
+@media (max-width: 600px) {
+    .login-card {
+        width: 95%;
+    }
+}
